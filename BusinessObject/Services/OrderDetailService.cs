@@ -18,5 +18,7 @@ namespace BusinessObject.Services
         }
 
         public List<OrderDetail> GetOrderDetails() => orderDetailRepository.GetOrderDetails();
+
+        public void Add(OrderDetail orderDetail) => orderDetailRepository.Add(orderDetail);
     }
 }

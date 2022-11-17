@@ -12,5 +12,6 @@ namespace DataAccess.Repository
         List<Order> GetOrders();
         List<Object> ReportOrders();
         List<Object> ReportOrdersByDate(DateTime startTime, DateTime endTime);
+        Order AddOrder(Order order);
     }
 }

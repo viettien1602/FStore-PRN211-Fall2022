@@ -1,4 +1,5 @@
 ﻿using BusinessObject.Services;
+using DataAccess.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,7 +15,7 @@ namespace SalesWinApp
     public partial class frmOrders : Form
     {
         private OrderService orderService = new();
-        public int MemberId { get; set; }
+        public int MemberId { get; set; } = 0;
         private BindingSource source;
         public frmOrders()
         {
@@ -34,7 +35,15 @@ namespace SalesWinApp
 
         private void LoadOrders()
         {
-            var orders = orderService.GetOrders().Where(order => order.MemberId == MemberId);
+            IEnumerable<Order> orders;
+            if (MemberId == 0)
+            {
+                orders = orderService.GetOrders();
+            }
+            else
+            {
+                orders = orderService.GetOrders().Where(order => order.MemberId == MemberId);
+            }
             source = new BindingSource();
             source.DataSource = orders;
             dgvOrders.DataSource = null;

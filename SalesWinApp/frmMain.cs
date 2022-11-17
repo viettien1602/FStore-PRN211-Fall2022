@@ -49,6 +49,7 @@ namespace SalesWinApp
             frm.Show();
         }
 
+
         private void menuReport_Click(object sender, EventArgs e)
         {
             frmReport frm = new frmReport();
@@ -62,6 +63,15 @@ namespace SalesWinApp
                 Member = CurMember
             };
             frmMembers.Show();
+
+        private void menuManageOrder_Click(object sender, EventArgs e)
+        {
+            frmOrders frm = new frmOrders();
+            if (frm.ShowDialog() == DialogResult.Cancel)
+            {
+                frm.Hide();
+            }
+
         }
     }
 }

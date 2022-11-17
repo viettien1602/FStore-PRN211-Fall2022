@@ -81,5 +81,19 @@ namespace SalesWinApp
                 this.Show();
             }
         }
+
+        private void btnBuyProducts_Click(object sender, EventArgs e)
+        {
+            frmBuyProducts frmBuyProducts = new frmBuyProducts
+            {
+                MemberId= Member.MemberId
+            };
+            this.Hide();
+            if (frmBuyProducts.ShowDialog() == DialogResult.Cancel)
+            {
+                frmBuyProducts.Hide();
+                this.Show();
+            }
+        }
     }
 }
