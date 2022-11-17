@@ -33,12 +33,17 @@ namespace SalesWinApp
             txtCity.Text = Member.City;
             txtCountry.Text = Member.Country;
             if (Member.Email.Equals(memberService.GetEmailAdmin()))
+            {
                 btnOrdersHistory.Visible = false;
+                btnBuyProducts.Visible = false;
+                btnLogout.Text = "Cancel";
+            }
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            this.DialogResult = DialogResult.Cancel;
+            //this.DialogResult = DialogResult.Cancel;
+            this.Close();
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)

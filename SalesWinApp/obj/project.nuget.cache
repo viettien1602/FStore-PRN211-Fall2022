@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JqaFMr6+o9LhuP0kZDIkjP2bw9gUaNWxAZ5KBQruxd2EEgerRSNcQIA8s0UDno5hPgWk0ATRoVT1jLOwmRSApQ==",
+  "dgSpecHash": "7anu2FUBbOBMJDD4FJq8nijU08IScBTjEYD2rVDZf8yRurIXiS1srkhskT7IURhmRHUslPOOObcmbQ/FEsosGg==",
   "success": true,
-  "projectFilePath": "D:\\PRN211-SE1609-FALL2022\\Assignment\\FStore-PRN211-Fall2022\\SalesWinApp\\SalesWinApp.csproj",
+  "projectFilePath": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\SalesWinApp\\SalesWinApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -22,6 +22,14 @@ namespace DataAccess.Repository
             bool result = false;
             try
             {
+                List<Order> orders = dbContext.Orders.Where(o => o.MemberId == member.MemberId).ToList();
+                foreach (Order order in orders)
+                {
+                    List<OrderDetail> orderDetails = dbContext.OrderDetails.Where(od => od.OrderId == order.OrderId).ToList();
+                    foreach(OrderDetail detail in orderDetails)
+                        dbContext.OrderDetails.Remove(detail);
+                    dbContext.Orders.Remove(order);
+                }
                 dbContext.Members.Remove(member);
                 dbContext.SaveChanges();
                 result = true;

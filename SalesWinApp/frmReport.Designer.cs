@@ -98,9 +98,9 @@
             // 
             // btnReportByDate
             // 
-            this.btnReportByDate.Location = new System.Drawing.Point(265, 369);
+            this.btnReportByDate.Location = new System.Drawing.Point(226, 369);
             this.btnReportByDate.Name = "btnReportByDate";
-            this.btnReportByDate.Size = new System.Drawing.Size(93, 23);
+            this.btnReportByDate.Size = new System.Drawing.Size(168, 23);
             this.btnReportByDate.TabIndex = 6;
             this.btnReportByDate.Text = "Report By Date";
             this.btnReportByDate.UseVisualStyleBackColor = true;
