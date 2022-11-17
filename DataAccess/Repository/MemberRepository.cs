@@ -1,4 +1,5 @@
 ﻿using DataAccess.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,25 @@ namespace DataAccess.Repository
         {
             dbContext = new FStoreDBContext();
         }
+
+        public bool DeleteMember(Member member)
+        {
+            bool result = false;
+            try
+            {
+                dbContext.Members.Remove(member);
+                dbContext.SaveChanges();
+                result = true;
+            }
+            catch (DbUpdateException due)
+            {
+
+            }
+            return result;
+
+        }
+
+
         public List<Member> GetMembers() => dbContext.Members.ToList();
     }
 }

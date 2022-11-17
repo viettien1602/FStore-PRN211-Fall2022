@@ -9,6 +9,8 @@ namespace DataAccess.Repository
 {
     public interface IMemberRepository
     {
-        List<Member> GetMembers();  
+        List<Member> GetMembers();
+        bool DeleteMember(Member member);
+
     }
 }

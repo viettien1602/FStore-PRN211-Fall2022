@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BusinessObject.Services;
+using DataAccess.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,7 +14,9 @@ namespace SalesWinApp
 {
     public partial class frmMembers : Form
     {
+        private MemberService _memberService = new MemberService();
 
+        private BindingSource _source;
         public frmMembers()
         {
             InitializeComponent();
@@ -25,16 +29,49 @@ namespace SalesWinApp
 
         private void frmMembers_Load(object sender, EventArgs e)
         {
-
+            LoadMembers();
         }
 
         private void LoadMembers()
         {
-            /* var members = _memberRepository.GetMembers();
+            var members = _memberService.GetMembers();
             _source = new BindingSource();
             _source.DataSource = members;
-            dgvMemberList.DataSource = _source; */
+            dgvMemberList.DataSource = _source;
         }
 
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            var id = dgvMemberList.SelectedRows[0].Cells[0].Value;
+            if (id is not null)
+            {
+                Member selectedMember = _memberService.GetMembers().FirstOrDefault(x => x.MemberId == (int)id);
+                if (selectedMember.Email.Equals(_memberService.GetEmailAdmin()))
+                {
+                    MessageBox.Show("Can not remove admin!");
+                }
+                else
+                {
+                    DialogResult dialog = MessageBox.Show("Do you want to delete?", "Cancel", MessageBoxButtons.YesNo);
+                    if (dialog == DialogResult.Yes)
+                    {
+                        bool s = _memberService.DeleteMember(selectedMember);
+                        if (s)
+                        {
+                            LoadMembers();
+                            MessageBox.Show("Sucessfully deleted!");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Unsuccessfully deleted!");
+                        }
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Unsuccessfully deleted!");
+            }
+        }
     }
 }
