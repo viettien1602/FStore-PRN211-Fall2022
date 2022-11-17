@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\SalesWinApp\\SalesWinApp.csproj": {}
+    "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\SalesWinApp\\SalesWinApp.csproj": {}
   },
   "projects": {
-    "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\BusinessObject\\BusinessObject.csproj": {
+    "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\BusinessObject\\obj\\",
+        "projectPath": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\DataAccess.csproj"
+              "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\DataAccess.csproj": {
+    "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\obj\\",
+        "projectPath": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -146,14 +146,14 @@
         }
       }
     },
-    "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\SalesWinApp\\SalesWinApp.csproj": {
+    "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\SalesWinApp\\SalesWinApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\SalesWinApp\\SalesWinApp.csproj",
+        "projectUniqueName": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\SalesWinApp\\SalesWinApp.csproj",
         "projectName": "SalesWinApp",
-        "projectPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\SalesWinApp\\SalesWinApp.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\SalesWinApp\\obj\\",
+        "projectPath": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\SalesWinApp\\SalesWinApp.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\SalesWinApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -169,11 +169,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\BusinessObject\\BusinessObject.csproj"
+              "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\BusinessObject\\BusinessObject.csproj"
               },
-              "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\DataAccess.csproj"
+              "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\DataAccess\\DataAccess.csproj"
               }
             }
           }
