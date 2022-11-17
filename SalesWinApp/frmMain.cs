@@ -47,5 +47,14 @@ namespace SalesWinApp
             frmMembersManagement frm = new frmMembersManagement();
             frm.Show();
         }
+
+        private void menuManageOrder_Click(object sender, EventArgs e)
+        {
+            frmOrders frm = new frmOrders();
+            if (frm.ShowDialog() == DialogResult.Cancel)
+            {
+                frm.Hide();
+            }
+        }
     }
 }

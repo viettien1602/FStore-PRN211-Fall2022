@@ -18,5 +18,7 @@ namespace BusinessObject.Services
         }
 
         public List<Order> GetOrders() => orderRepository.GetOrders();
+
+        public Order AddOrder(Order order) => orderRepository.AddOrder(order);
     }
 }

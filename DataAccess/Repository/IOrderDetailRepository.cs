@@ -10,5 +10,6 @@ namespace DataAccess.Repository
     public interface IOrderDetailRepository
     {
         List<OrderDetail> GetOrderDetails();
+        void Add(OrderDetail orderDetail);
     }
 }

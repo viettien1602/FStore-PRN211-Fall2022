@@ -10,5 +10,6 @@ namespace DataAccess.Repository
     public interface IOrderRepository
     {
         List<Order> GetOrders();
+        Order AddOrder(Order order);
     }
 }

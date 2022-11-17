@@ -62,6 +62,7 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(218, 27);
             this.txtEmail.TabIndex = 2;
+            this.txtEmail.Text = "tien@gmail.com";
             // 
             // txtPassword
             // 
@@ -70,6 +71,7 @@
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(218, 27);
             this.txtPassword.TabIndex = 3;
+            this.txtPassword.Text = "16022002";
             // 
             // btnLogin
             // 
