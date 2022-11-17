@@ -42,13 +42,15 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuManage,
             this.menuProfile,
             this.menuExit});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(466, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 3, 0, 3);
+            this.menuStrip1.Size = new System.Drawing.Size(533, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -60,32 +62,33 @@
             this.menuManageOrder,
             this.menuViewOrderHistory});
             this.menuManage.Name = "menuManage";
-            this.menuManage.Size = new System.Drawing.Size(62, 20);
+            this.menuManage.Size = new System.Drawing.Size(77, 24);
             this.menuManage.Text = "Manage";
             // 
             // menuManageMember
             // 
             this.menuManageMember.Name = "menuManageMember";
-            this.menuManageMember.Size = new System.Drawing.Size(180, 22);
+            this.menuManageMember.Size = new System.Drawing.Size(224, 26);
             this.menuManageMember.Text = "Manage Member";
             this.menuManageMember.Click += new System.EventHandler(this.menuManageMember_Click);
             // 
             // menuManageProduct
             // 
             this.menuManageProduct.Name = "menuManageProduct";
-            this.menuManageProduct.Size = new System.Drawing.Size(180, 22);
+            this.menuManageProduct.Size = new System.Drawing.Size(224, 26);
             this.menuManageProduct.Text = "Manage Product";
             // 
             // menuManageOrder
             // 
             this.menuManageOrder.Name = "menuManageOrder";
-            this.menuManageOrder.Size = new System.Drawing.Size(180, 22);
+            this.menuManageOrder.Size = new System.Drawing.Size(224, 26);
             this.menuManageOrder.Text = "Manage Order";
+            this.menuManageOrder.Click += new System.EventHandler(this.menuManageOrder_Click);
             // 
             // menuViewOrderHistory
             // 
             this.menuViewOrderHistory.Name = "menuViewOrderHistory";
-            this.menuViewOrderHistory.Size = new System.Drawing.Size(180, 22);
+            this.menuViewOrderHistory.Size = new System.Drawing.Size(224, 26);
             this.menuViewOrderHistory.Text = "View Order history";
             // 
             // menuProfile
@@ -93,29 +96,30 @@
             this.menuProfile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuManageProfile});
             this.menuProfile.Name = "menuProfile";
-            this.menuProfile.Size = new System.Drawing.Size(53, 20);
+            this.menuProfile.Size = new System.Drawing.Size(66, 24);
             this.menuProfile.Text = "Profile";
             // 
             // menuManageProfile
             // 
             this.menuManageProfile.Name = "menuManageProfile";
-            this.menuManageProfile.Size = new System.Drawing.Size(154, 22);
+            this.menuManageProfile.Size = new System.Drawing.Size(193, 26);
             this.menuManageProfile.Text = "Manage Profile";
             // 
             // menuExit
             // 
             this.menuExit.Name = "menuExit";
-            this.menuExit.Size = new System.Drawing.Size(38, 20);
+            this.menuExit.Size = new System.Drawing.Size(47, 24);
             this.menuExit.Text = "Exit";
             this.menuExit.Click += new System.EventHandler(this.menuExit_Click);
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(466, 302);
+            this.ClientSize = new System.Drawing.Size(533, 403);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMain";

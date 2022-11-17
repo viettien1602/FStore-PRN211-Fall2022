@@ -42,6 +42,7 @@
             this.btnLogout = new System.Windows.Forms.Button();
             this.lbProfileManagement = new System.Windows.Forms.Label();
             this.btnOrdersHistory = new System.Windows.Forms.Button();
+            this.btnBuyProducts = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbMemberId
@@ -126,19 +127,19 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(122, 297);
+            this.btnUpdate.Location = new System.Drawing.Point(51, 294);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(94, 29);
+            this.btnUpdate.Size = new System.Drawing.Size(171, 29);
             this.btnUpdate.TabIndex = 10;
-            this.btnUpdate.Text = "Update";
+            this.btnUpdate.Text = "Update Info";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnLogout
             // 
-            this.btnLogout.Location = new System.Drawing.Point(246, 297);
+            this.btnLogout.Location = new System.Drawing.Point(240, 294);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(94, 29);
+            this.btnLogout.Size = new System.Drawing.Size(171, 29);
             this.btnLogout.TabIndex = 11;
             this.btnLogout.Text = "Log out";
             this.btnLogout.UseVisualStyleBackColor = true;
@@ -157,19 +158,30 @@
             // 
             // btnOrdersHistory
             // 
-            this.btnOrdersHistory.Location = new System.Drawing.Point(122, 341);
+            this.btnOrdersHistory.Location = new System.Drawing.Point(240, 345);
             this.btnOrdersHistory.Name = "btnOrdersHistory";
-            this.btnOrdersHistory.Size = new System.Drawing.Size(218, 29);
+            this.btnOrdersHistory.Size = new System.Drawing.Size(171, 29);
             this.btnOrdersHistory.TabIndex = 13;
             this.btnOrdersHistory.Text = "Orders history";
             this.btnOrdersHistory.UseVisualStyleBackColor = true;
             this.btnOrdersHistory.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnBuyProducts
+            // 
+            this.btnBuyProducts.Location = new System.Drawing.Point(51, 345);
+            this.btnBuyProducts.Name = "btnBuyProducts";
+            this.btnBuyProducts.Size = new System.Drawing.Size(171, 29);
+            this.btnBuyProducts.TabIndex = 14;
+            this.btnBuyProducts.Text = "Buy Products";
+            this.btnBuyProducts.UseVisualStyleBackColor = true;
+            this.btnBuyProducts.Click += new System.EventHandler(this.btnBuyProducts_Click);
             // 
             // frmMembers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(481, 398);
+            this.Controls.Add(this.btnBuyProducts);
             this.Controls.Add(this.btnOrdersHistory);
             this.Controls.Add(this.lbProfileManagement);
             this.Controls.Add(this.btnLogout);
@@ -209,5 +221,6 @@
         private Button btnLogout;
         private Label lbProfileManagement;
         private Button btnOrdersHistory;
+        private Button btnBuyProducts;
     }
 }

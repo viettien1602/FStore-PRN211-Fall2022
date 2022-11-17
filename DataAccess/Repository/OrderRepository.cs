@@ -16,5 +16,16 @@ namespace DataAccess.Repository
             dbContext = new FStoreDBContext();
         }
         public List<Order> GetOrders() => dbContext.Orders.ToList();
+
+        public Order AddOrder(Order order)
+        {
+            Order returnOrder = null;
+            if (order is not null)
+            {
+                returnOrder = dbContext.Add(order).Entity;
+                dbContext.SaveChanges();
+            }
+            return returnOrder;
+        }
     }
 }
