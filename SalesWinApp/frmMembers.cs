@@ -32,6 +32,8 @@ namespace SalesWinApp
             txtCompanyName.Text = Member.CompanyName;
             txtCity.Text = Member.City;
             txtCountry.Text = Member.Country;
+            if (Member.Email.Equals(memberService.GetEmailAdmin()))
+                btnOrdersHistory.Visible = false;
         }
 
         private void btnLogout_Click(object sender, EventArgs e)

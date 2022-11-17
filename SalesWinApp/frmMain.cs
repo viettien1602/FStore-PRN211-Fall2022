@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Metrics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -48,6 +49,21 @@ namespace SalesWinApp
             frm.Show();
         }
 
+
+        private void menuReport_Click(object sender, EventArgs e)
+        {
+            frmReport frm = new frmReport();
+            frm.Show();
+        }
+
+        private void menuManageProfile_Click(object sender, EventArgs e)
+        {
+            frmMembers frmMembers = new frmMembers
+            {
+                Member = CurMember
+            };
+            frmMembers.Show();
+
         private void menuManageOrder_Click(object sender, EventArgs e)
         {
             frmOrders frm = new frmOrders();
@@ -55,6 +71,7 @@ namespace SalesWinApp
             {
                 frm.Hide();
             }
+
         }
     }
 }

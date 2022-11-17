@@ -34,7 +34,14 @@ namespace SalesWinApp
 
         private void LoadMembers()
         {
-            var members = _memberService.GetMembers();
+            var members = _memberService.GetMembers().Select(m => new
+            {
+                MemberId = m.MemberId,
+                Email = m.Email,
+                CompanyName = m.CompanyName,
+                City = m.City,
+                Country = m.Country
+            }); 
             _source = new BindingSource();
             _source.DataSource = members;
             dgvMemberList.DataSource = _source;
@@ -70,7 +77,7 @@ namespace SalesWinApp
             }
             else
             {
-                MessageBox.Show("Unsuccessfully deleted!");
+                MessageBox.Show("Unsuccessfully deleted!!!");
             }
         }
     }

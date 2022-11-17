@@ -33,7 +33,7 @@
             this.menuManageMember = new System.Windows.Forms.ToolStripMenuItem();
             this.menuManageProduct = new System.Windows.Forms.ToolStripMenuItem();
             this.menuManageOrder = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuViewOrderHistory = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuReport = new System.Windows.Forms.ToolStripMenuItem();
             this.menuProfile = new System.Windows.Forms.ToolStripMenuItem();
             this.menuManageProfile = new System.Windows.Forms.ToolStripMenuItem();
             this.menuExit = new System.Windows.Forms.ToolStripMenuItem();
@@ -60,7 +60,7 @@
             this.menuManageMember,
             this.menuManageProduct,
             this.menuManageOrder,
-            this.menuViewOrderHistory});
+            this.menuReport});
             this.menuManage.Name = "menuManage";
             this.menuManage.Size = new System.Drawing.Size(77, 24);
             this.menuManage.Text = "Manage";
@@ -85,11 +85,14 @@
             this.menuManageOrder.Text = "Manage Order";
             this.menuManageOrder.Click += new System.EventHandler(this.menuManageOrder_Click);
             // 
-            // menuViewOrderHistory
+            // menuReport
             // 
-            this.menuViewOrderHistory.Name = "menuViewOrderHistory";
-            this.menuViewOrderHistory.Size = new System.Drawing.Size(224, 26);
-            this.menuViewOrderHistory.Text = "View Order history";
+
+            this.menuReport.Name = "menuReport";
+            this.menuReport.Size = new System.Drawing.Size(180, 22);
+            this.menuReport.Text = "Report Order";
+            this.menuReport.Click += new System.EventHandler(this.menuReport_Click);
+
             // 
             // menuProfile
             // 
@@ -102,8 +105,9 @@
             // menuManageProfile
             // 
             this.menuManageProfile.Name = "menuManageProfile";
-            this.menuManageProfile.Size = new System.Drawing.Size(193, 26);
+            this.menuManageProfile.Size = new System.Drawing.Size(180, 22);
             this.menuManageProfile.Text = "Manage Profile";
+            this.menuManageProfile.Click += new System.EventHandler(this.menuManageProfile_Click);
             // 
             // menuExit
             // 
@@ -138,7 +142,7 @@
         private ToolStripMenuItem menuManageMember;
         private ToolStripMenuItem menuManageProduct;
         private ToolStripMenuItem menuManageOrder;
-        private ToolStripMenuItem menuViewOrderHistory;
+        private ToolStripMenuItem menuReport;
         private ToolStripMenuItem menuProfile;
         private ToolStripMenuItem menuManageProfile;
         private ToolStripMenuItem menuExit;

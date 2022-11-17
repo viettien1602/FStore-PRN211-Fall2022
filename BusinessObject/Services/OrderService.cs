@@ -18,7 +18,8 @@ namespace BusinessObject.Services
         }
 
         public List<Order> GetOrders() => orderRepository.GetOrders();
-
+        public List<Object> ReportOrders() => orderRepository.ReportOrders();
+        public List<Object> ReportOrdersByDate(DateTime startTime, DateTime endTime) => orderRepository.ReportOrdersByDate(startTime, endTime);
         public Order AddOrder(Order order) => orderRepository.AddOrder(order);
     }
 }

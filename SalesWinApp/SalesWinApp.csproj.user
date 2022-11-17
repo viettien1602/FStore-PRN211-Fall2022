@@ -28,7 +28,13 @@
     <Compile Update="frmOrders.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmOrdersOfDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmReport.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
