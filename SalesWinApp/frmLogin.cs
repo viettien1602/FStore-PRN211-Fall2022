@@ -38,12 +38,20 @@ namespace SalesWinApp
                 }
                 else
                 {
+                    
                     if (member.Email.Equals(memberService.GetEmailAdmin()))
                     {
                         MessageBox.Show("You are admin");
+                        frmMain frm = new frmMain()
+                        {
+                            CurMember = member
+                        };
+                        this.Hide();
+                        frm.Show();
                     }
                     else
                     {
+<<<<<<< HEAD
                         frmMembers frmMembers = new frmMembers
                         {
                             Member = member
@@ -54,7 +62,11 @@ namespace SalesWinApp
                             frmMembers.Hide();
                             this.Show();
                         }
+=======
+
+>>>>>>> feature/member-demo
                     }
+
                 }
 
             }

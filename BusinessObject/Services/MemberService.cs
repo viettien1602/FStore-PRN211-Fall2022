@@ -11,14 +11,14 @@ namespace BusinessObject.Services
 {
     public class MemberService
     {
-        private MemberRepository memberRepository;
+        private MemberRepository _memberRepository;
 
         public MemberService()
         {
-            memberRepository = new MemberRepository();
+            _memberRepository = new MemberRepository();
         }
 
-        public List<Member> GetMembers() => memberRepository.GetMembers();
+        public List<Member> GetMembers() => _memberRepository.GetMembers();
 
         public string GetEmailAdmin()
         {
@@ -30,7 +30,9 @@ namespace BusinessObject.Services
             return emailAdmin;
         }
 
-        public void Create(Member member) => memberRepository.Create(member);
-        public void Update(Member member) => memberRepository.Update(member);
+        public void Create(Member member) => _memberRepository.Create(member);
+        public void Update(Member member) => _memberRepository.Update(member);
+        public bool DeleteMember(Member member) => _memberRepository.DeleteMember(member); 
+
     }
 }
