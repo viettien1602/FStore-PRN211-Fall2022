@@ -1,4 +1,7 @@
-﻿using System;
+﻿using BusinessObject.Objects;
+using BusinessObject.Services;
+using DataAccess.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,29 +15,21 @@ namespace SalesWinApp
 {
     public partial class frmMembers : Form
     {
+        private MemberService memberService = new();
+        public Member Member { get; set; }
 
         public frmMembers()
         {
             InitializeComponent();
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void frmMembers_Load(object sender, EventArgs e)
         {
-
+            txtMemberId.Enabled = false;
+            txtEmail.Text = Member.Email;
+            txtCompanyName.Text = Member.CompanyName;
+            txtCity.Text = Member.City;
+            txtCountry.Text = Member.Country;
         }
-
-        private void LoadMembers()
-        {
-            /* var members = _memberRepository.GetMembers();
-            _source = new BindingSource();
-            _source.DataSource = members;
-            dgvMemberList.DataSource = _source; */
-        }
-
     }
 }

@@ -42,15 +42,13 @@ namespace SalesWinApp
                     {
                         MessageBox.Show("You are admin");
                     }
-                    else
+                    frmMain frm = new frmMain()
                     {
-                        frmMembers frmMembers = new frmMembers
-                        {
-                            Member = member
-                        };
-                        this.Hide();
-                        frmMembers.Show();
-                    }
+                        CurMember = member
+                    };
+                    this.Hide();
+                    frm.Show();
+                   
                 }
 
             }

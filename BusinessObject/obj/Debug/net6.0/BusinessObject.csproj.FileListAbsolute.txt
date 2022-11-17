@@ -13,3 +13,18 @@ F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\BusinessObject\obj\Debug\net6
 F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\BusinessObject\bin\Debug\net6.0\DataAccess.dll
 F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\BusinessObject\bin\Debug\net6.0\DataAccess.pdb
 F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.CopyComplete
+C:\Users\User\source\repos\FStore-PRN211-Fall2022\BusinessObject\bin\Debug\net6.0\BusinessObject.deps.json
+C:\Users\User\source\repos\FStore-PRN211-Fall2022\BusinessObject\bin\Debug\net6.0\BusinessObject.dll
+C:\Users\User\source\repos\FStore-PRN211-Fall2022\BusinessObject\bin\Debug\net6.0\BusinessObject.pdb
+C:\Users\User\source\repos\FStore-PRN211-Fall2022\BusinessObject\bin\Debug\net6.0\DataAccess.dll
+C:\Users\User\source\repos\FStore-PRN211-Fall2022\BusinessObject\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\User\source\repos\FStore-PRN211-Fall2022\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\FStore-PRN211-Fall2022\BusinessObject\obj\Debug\net6.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\FStore-PRN211-Fall2022\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\FStore-PRN211-Fall2022\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfo.cs
+C:\Users\User\source\repos\FStore-PRN211-Fall2022\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\FStore-PRN211-Fall2022\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.CopyComplete
+C:\Users\User\source\repos\FStore-PRN211-Fall2022\BusinessObject\obj\Debug\net6.0\BusinessObject.dll
+C:\Users\User\source\repos\FStore-PRN211-Fall2022\BusinessObject\obj\Debug\net6.0\refint\BusinessObject.dll
+C:\Users\User\source\repos\FStore-PRN211-Fall2022\BusinessObject\obj\Debug\net6.0\BusinessObject.pdb
+C:\Users\User\source\repos\FStore-PRN211-Fall2022\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll
