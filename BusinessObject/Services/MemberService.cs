@@ -29,5 +29,9 @@ namespace BusinessObject.Services
             var emailAdmin = config["defaultEmail"];
             return emailAdmin;
         }
+
+        public void Create(Member member) => memberRepository.Create(member);
+        public void Update(Member member) => memberRepository.Update(member);
+        public void Delete(Member member) => memberRepository.Delete(member);
     }
 }

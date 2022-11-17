@@ -49,7 +49,11 @@ namespace SalesWinApp
                             Member = member
                         };
                         this.Hide();
-                        frmMembers.Show();
+                        if (frmMembers.ShowDialog() == DialogResult.Cancel)
+                        {
+                            frmMembers.Hide();
+                            this.Show();
+                        }
                     }
                 }
 
@@ -57,5 +61,16 @@ namespace SalesWinApp
         }
 
         private void btnCancel_Click(object sender, EventArgs e) => Close();
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            frmCreateMember frmCreateMember = new frmCreateMember();
+            this.Hide();
+            if (frmCreateMember.ShowDialog() == DialogResult.Cancel)
+            {
+                frmCreateMember.Hide();
+                this.Show();
+            }
+        }
     }
 }

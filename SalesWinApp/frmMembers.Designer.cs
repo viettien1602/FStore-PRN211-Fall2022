@@ -38,12 +38,15 @@
             this.txtCompanyName = new System.Windows.Forms.TextBox();
             this.txtCity = new System.Windows.Forms.TextBox();
             this.txtCountry = new System.Windows.Forms.TextBox();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.lbProfileManagement = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbMemberId
             // 
             this.lbMemberId.AutoSize = true;
-            this.lbMemberId.Location = new System.Drawing.Point(47, 46);
+            this.lbMemberId.Location = new System.Drawing.Point(61, 79);
             this.lbMemberId.Name = "lbMemberId";
             this.lbMemberId.Size = new System.Drawing.Size(84, 20);
             this.lbMemberId.TabIndex = 0;
@@ -52,7 +55,7 @@
             // lbEmail
             // 
             this.lbEmail.AutoSize = true;
-            this.lbEmail.Location = new System.Drawing.Point(47, 92);
+            this.lbEmail.Location = new System.Drawing.Point(61, 125);
             this.lbEmail.Name = "lbEmail";
             this.lbEmail.Size = new System.Drawing.Size(46, 20);
             this.lbEmail.TabIndex = 1;
@@ -61,7 +64,7 @@
             // lbCompanyName
             // 
             this.lbCompanyName.AutoSize = true;
-            this.lbCompanyName.Location = new System.Drawing.Point(47, 134);
+            this.lbCompanyName.Location = new System.Drawing.Point(61, 167);
             this.lbCompanyName.Name = "lbCompanyName";
             this.lbCompanyName.Size = new System.Drawing.Size(113, 20);
             this.lbCompanyName.TabIndex = 2;
@@ -70,7 +73,7 @@
             // lbCity
             // 
             this.lbCity.AutoSize = true;
-            this.lbCity.Location = new System.Drawing.Point(47, 173);
+            this.lbCity.Location = new System.Drawing.Point(61, 206);
             this.lbCity.Name = "lbCity";
             this.lbCity.Size = new System.Drawing.Size(34, 20);
             this.lbCity.TabIndex = 3;
@@ -79,7 +82,7 @@
             // lbCountry
             // 
             this.lbCountry.AutoSize = true;
-            this.lbCountry.Location = new System.Drawing.Point(47, 214);
+            this.lbCountry.Location = new System.Drawing.Point(61, 247);
             this.lbCountry.Name = "lbCountry";
             this.lbCountry.Size = new System.Drawing.Size(60, 20);
             this.lbCountry.TabIndex = 4;
@@ -87,44 +90,78 @@
             // 
             // txtMemberId
             // 
-            this.txtMemberId.Location = new System.Drawing.Point(179, 46);
+            this.txtMemberId.Location = new System.Drawing.Point(193, 79);
             this.txtMemberId.Name = "txtMemberId";
             this.txtMemberId.Size = new System.Drawing.Size(209, 27);
             this.txtMemberId.TabIndex = 5;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(179, 92);
+            this.txtEmail.Location = new System.Drawing.Point(193, 125);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(209, 27);
             this.txtEmail.TabIndex = 6;
             // 
             // txtCompanyName
             // 
-            this.txtCompanyName.Location = new System.Drawing.Point(179, 134);
+            this.txtCompanyName.Location = new System.Drawing.Point(193, 167);
             this.txtCompanyName.Name = "txtCompanyName";
             this.txtCompanyName.Size = new System.Drawing.Size(209, 27);
             this.txtCompanyName.TabIndex = 7;
             // 
             // txtCity
             // 
-            this.txtCity.Location = new System.Drawing.Point(179, 173);
+            this.txtCity.Location = new System.Drawing.Point(193, 206);
             this.txtCity.Name = "txtCity";
             this.txtCity.Size = new System.Drawing.Size(209, 27);
             this.txtCity.TabIndex = 8;
             // 
             // txtCountry
             // 
-            this.txtCountry.Location = new System.Drawing.Point(179, 214);
+            this.txtCountry.Location = new System.Drawing.Point(193, 247);
             this.txtCountry.Name = "txtCountry";
             this.txtCountry.Size = new System.Drawing.Size(209, 27);
             this.txtCountry.TabIndex = 9;
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(113, 307);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(94, 29);
+            this.btnUpdate.TabIndex = 10;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.Location = new System.Drawing.Point(250, 307);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(94, 29);
+            this.btnLogout.TabIndex = 11;
+            this.btnLogout.Text = "Log out";
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
+            // lbProfileManagement
+            // 
+            this.lbProfileManagement.AutoSize = true;
+            this.lbProfileManagement.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbProfileManagement.Location = new System.Drawing.Point(103, 23);
+            this.lbProfileManagement.Name = "lbProfileManagement";
+            this.lbProfileManagement.Size = new System.Drawing.Size(270, 32);
+            this.lbProfileManagement.TabIndex = 12;
+            this.lbProfileManagement.Text = "PROFILE MANAGEMENT";
+            this.lbProfileManagement.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // frmMembers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 347);
+            this.ClientSize = new System.Drawing.Size(481, 371);
+            this.Controls.Add(this.lbProfileManagement);
+            this.Controls.Add(this.btnLogout);
+            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.txtCountry);
             this.Controls.Add(this.txtCity);
             this.Controls.Add(this.txtCompanyName);
@@ -156,5 +193,8 @@
         private TextBox txtCompanyName;
         private TextBox txtCity;
         private TextBox txtCountry;
+        private Button btnUpdate;
+        private Button btnLogout;
+        private Label lbProfileManagement;
     }
 }

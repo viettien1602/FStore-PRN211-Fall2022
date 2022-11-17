@@ -9,6 +9,10 @@ namespace DataAccess.Repository
 {
     public interface IMemberRepository
     {
-        List<Member> GetMembers();  
+        List<Member> GetMembers();
+        void Create(Member member);
+        void Update(Member member);
+        void Delete(Member member);
+
     }
 }

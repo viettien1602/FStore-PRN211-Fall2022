@@ -70,3 +70,4 @@ F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\SalesWinApp\obj\Debug\net6.0-
 F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\SalesWinApp\obj\Debug\net6.0-windows\SalesWinApp.frmOrders.resources
 F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\SalesWinApp\obj\Debug\net6.0-windows\SalesWinApp.frmProducts.resources
 F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\SalesWinApp\obj\Debug\net6.0-windows\SalesWinApp.csproj.CopyComplete
+F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\SalesWinApp\obj\Debug\net6.0-windows\SalesWinApp.frmCreateMember.resources
