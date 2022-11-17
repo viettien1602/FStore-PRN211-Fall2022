@@ -38,17 +38,22 @@ namespace SalesWinApp
                 }
                 else
                 {
+                    
                     if (member.Email.Equals(memberService.GetEmailAdmin()))
                     {
                         MessageBox.Show("You are admin");
+                        frmMain frm = new frmMain()
+                        {
+                            CurMember = member
+                        };
+                        this.Hide();
+                        frm.Show();
                     }
-                    frmMain frm = new frmMain()
+                    else
                     {
-                        CurMember = member
-                    };
-                    this.Hide();
-                    frm.Show();
-                   
+
+                    }
+
                 }
 
             }

@@ -12,12 +12,12 @@ using System.Windows.Forms;
 
 namespace SalesWinApp
 {
-    public partial class frmMembers : Form
+    public partial class frmMembersManagement : Form
     {
         private MemberService _memberService = new MemberService();
 
         private BindingSource _source;
-        public frmMembers()
+        public frmMembersManagement()
         {
             InitializeComponent();
         }

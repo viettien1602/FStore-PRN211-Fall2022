@@ -3603,37 +3603,36 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\FStore-PRN211-Fall2022\\SalesWinApp\\SalesWinApp.csproj",
+      "projectUniqueName": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\SalesWinApp\\SalesWinApp.csproj",
       "projectName": "SalesWinApp",
-      "projectPath": "C:\\Users\\User\\source\\repos\\FStore-PRN211-Fall2022\\SalesWinApp\\SalesWinApp.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\FStore-PRN211-Fall2022\\SalesWinApp\\obj\\",
+      "projectPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\SalesWinApp\\SalesWinApp.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\SalesWinApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\FStore-PRN211-Fall2022\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\FStore-PRN211-Fall2022\\BusinessObject\\BusinessObject.csproj"
+            "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\BusinessObject\\BusinessObject.csproj"
             },
-            "C:\\Users\\User\\source\\repos\\FStore-PRN211-Fall2022\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\FStore-PRN211-Fall2022\\DataAccess\\DataAccess.csproj"
+            "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\DataAccess.csproj"
             }
           }
         }
@@ -3666,7 +3665,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

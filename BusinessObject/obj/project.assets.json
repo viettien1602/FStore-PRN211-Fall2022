@@ -3584,34 +3584,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\FStore-PRN211-Fall2022\\BusinessObject\\BusinessObject.csproj",
+      "projectUniqueName": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\BusinessObject\\BusinessObject.csproj",
       "projectName": "BusinessObject",
-      "projectPath": "C:\\Users\\User\\source\\repos\\FStore-PRN211-Fall2022\\BusinessObject\\BusinessObject.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\FStore-PRN211-Fall2022\\BusinessObject\\obj\\",
+      "projectPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\BusinessObject\\BusinessObject.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\BusinessObject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\FStore-PRN211-Fall2022\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\FStore-PRN211-Fall2022\\DataAccess\\DataAccess.csproj"
+            "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\DataAccess.csproj"
             }
           }
         }
@@ -3641,7 +3640,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

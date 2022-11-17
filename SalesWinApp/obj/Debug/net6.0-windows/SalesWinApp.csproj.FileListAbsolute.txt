@@ -66,7 +66,6 @@ F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\SalesWinApp\bin\Debug\net6.0-
 F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\SalesWinApp\bin\Debug\net6.0-windows\BusinessObject.pdb
 F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\SalesWinApp\bin\Debug\net6.0-windows\DataAccess.pdb
 F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\SalesWinApp\obj\Debug\net6.0-windows\SalesWinApp.frmMain.resources
-F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\SalesWinApp\obj\Debug\net6.0-windows\SalesWinApp.frmMembers.resources
 F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\SalesWinApp\obj\Debug\net6.0-windows\SalesWinApp.frmOrders.resources
 F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\SalesWinApp\obj\Debug\net6.0-windows\SalesWinApp.frmProducts.resources
 F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\SalesWinApp\obj\Debug\net6.0-windows\SalesWinApp.csproj.CopyComplete
@@ -142,3 +141,4 @@ C:\Users\User\source\repos\FStore-PRN211-Fall2022\SalesWinApp\obj\Debug\net6.0-w
 C:\Users\User\source\repos\FStore-PRN211-Fall2022\SalesWinApp\obj\Debug\net6.0-windows\SalesWinApp.pdb
 C:\Users\User\source\repos\FStore-PRN211-Fall2022\SalesWinApp\obj\Debug\net6.0-windows\SalesWinApp.genruntimeconfig.cache
 C:\Users\User\source\repos\FStore-PRN211-Fall2022\SalesWinApp\obj\Debug\net6.0-windows\ref\SalesWinApp.dll
+F:\IT lessons fpt\PRN211\Assignment2\Ass02Solution\SalesWinApp\obj\Debug\net6.0-windows\SalesWinApp.frmMembersManagement.resources
