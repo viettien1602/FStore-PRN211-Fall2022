@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessObject
+namespace BusinessObject.Objects
 {
-    public class OrderObject
+    public class ProductObject
     {
     }
 }
