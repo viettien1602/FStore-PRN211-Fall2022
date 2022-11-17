@@ -12,7 +12,6 @@ namespace DataAccess.Repository
         List<Member> GetMembers();
         void Create(Member member);
         void Update(Member member);
-        void Delete(Member member);
 
     }
 }

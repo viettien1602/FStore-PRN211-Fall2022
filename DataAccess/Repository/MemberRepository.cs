@@ -35,14 +35,5 @@ namespace DataAccess.Repository
                 dbContext.SaveChanges();
             }
         }
-
-        public void Delete(Member member)
-        {
-            if (member is not null)
-            {
-                dbContext.Remove(member);
-                dbContext.SaveChanges();
-            }
-        }
     }
 }
