@@ -47,7 +47,11 @@ namespace SalesWinApp
                             CurMember = member
                         };
                         this.Hide();
-                        frm.Show();
+                        if (frm.ShowDialog() == DialogResult.Cancel)
+                        {
+                            frm.Hide();
+                            this.Show();
+                        }
                     }
                     else
                     {

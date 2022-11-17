@@ -39,7 +39,7 @@ namespace SalesWinApp
 
         private void menuExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.DialogResult = DialogResult.Cancel;
         }
 
         private void menuManageMember_Click(object sender, EventArgs e)
