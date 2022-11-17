@@ -51,7 +51,6 @@ namespace SalesWinApp
                     }
                     else
                     {
-<<<<<<< HEAD
                         frmMembers frmMembers = new frmMembers
                         {
                             Member = member
@@ -62,9 +61,6 @@ namespace SalesWinApp
                             frmMembers.Hide();
                             this.Show();
                         }
-=======
-
->>>>>>> feature/member-demo
                     }
 
                 }

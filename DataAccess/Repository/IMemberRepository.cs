@@ -10,12 +10,9 @@ namespace DataAccess.Repository
     public interface IMemberRepository
     {
         List<Member> GetMembers();
-<<<<<<< HEAD
         void Create(Member member);
         void Update(Member member);
-=======
         bool DeleteMember(Member member);
->>>>>>> feature/member-demo
 
     }
 }
