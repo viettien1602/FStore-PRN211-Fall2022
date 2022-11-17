@@ -102,7 +102,7 @@ namespace SalesWinApp
 
                     });
                     
-                    this.DialogResult = DialogResult.Cancel;
+                    this.DialogResult = DialogResult.OK;
                 }
                 
             }

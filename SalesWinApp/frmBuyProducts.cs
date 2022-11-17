@@ -168,12 +168,16 @@ namespace SalesWinApp
                 orderDetails = this.orderDetails,
                 MemberId = this.MemberId
             };
-            if (frmCart.ShowDialog() == DialogResult.Cancel)
+            DialogResult dialog = frmCart.ShowDialog();
+            if (dialog == DialogResult.Cancel)
+            {
+                frmCart.Hide();
+            }
+            else if (dialog == DialogResult.OK)
             {
                 frmCart.Hide();
                 this.orderDetails = new List<OrderDetail>();
                 ClearText();
-               
             }
             productService = new();
             LoadProducts();
