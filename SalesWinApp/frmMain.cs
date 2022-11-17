@@ -63,7 +63,7 @@ namespace SalesWinApp
                 Member = CurMember
             };
             frmMembers.Show();
-
+        }
         private void menuManageOrder_Click(object sender, EventArgs e)
         {
             frmOrders frm = new frmOrders();
