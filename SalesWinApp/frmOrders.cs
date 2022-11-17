@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Data.SqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,18 @@ namespace SalesWinApp
         public frmOrders()
         {
             InitializeComponent();
+        }
+
+        private void btnChart_Click(object sender, EventArgs e)
+        {
+            /*
+            chart.Series["Salary"].XValueMember = "name";
+            chart.Series["Salary"].YValueMembers = "salary";
+            this.chart.Titles.Add("Salary Chart for Employee");
+            chart.Series["Salary"].ChartType = SeriesChartType.Bar;
+            chart.Series["Salary"].IsValueShownAsLabel = true;
+            con.Close();
+            */
         }
     }
 }
