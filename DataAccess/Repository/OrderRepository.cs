@@ -38,10 +38,10 @@ namespace DataAccess.Repository
                     OrderDate = m.First().OrderDate,
                     Total = m.First().Freight + m.Sum(t => t.Total)
                 }).ToList();
-            var rrs = rrrs.GroupBy(o => o.OrderDate)
+            var rrs = rrrs.GroupBy(o => o.OrderDate.Date)
                 .Select(m => new
                 {
-                    m.First().OrderDate,
+                    OrderDate = m.First().OrderDate.Date,
                     QuantityOrder = m.Count(),
                     Total = m.Sum(t => t.Total)
                 }).OrderByDescending(o => o.OrderDate).ToList();
@@ -71,10 +71,10 @@ namespace DataAccess.Repository
                     OrderDate = m.First().OrderDate,
                     Total = m.First().Freight + m.Sum(t => t.Total)
                 }).ToList();
-            var rrs = rrrs.GroupBy(o => o.OrderDate)
+            var rrs = rrrs.GroupBy(o => o.OrderDate.Date)
                 .Select(m => new
                 {
-                    m.First().OrderDate,
+                    OrderDate = m.First().OrderDate.Date,
                     QuantityOrder = m.Count(),
                     Total = m.Sum(t => t.Total)
                 }).OrderByDescending(o => o.OrderDate).ToList();

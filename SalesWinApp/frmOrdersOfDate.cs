@@ -36,7 +36,7 @@ namespace SalesWinApp
 
         private void LoadOrders()
         {
-            var orders = _orderService.GetOrders().Where(x => x.OrderDate == dateTimePicker1.Value).ToList();
+            var orders = _orderService.GetOrders().Where(x => x.OrderDate.Date == dateTimePicker1.Value.Date).ToList();
             _source = new BindingSource();
             _source.DataSource = orders;
             dataGridView1.DataSource = _source;
