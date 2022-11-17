@@ -44,7 +44,7 @@ namespace SalesWinApp
 
         private void menuManageMember_Click(object sender, EventArgs e)
         {
-            frmMembers frm = new frmMembers();
+            frmMembersManagement frm = new frmMembersManagement();
             frm.Show();
         }
     }

@@ -12,12 +12,12 @@ using System.Windows.Forms;
 
 namespace SalesWinApp
 {
-    public partial class frmMembers : Form
+    public partial class frmMembersManagement : Form
     {
         private MemberService _memberService = new MemberService();
 
         private BindingSource _source;
-        public frmMembers()
+        public frmMembersManagement()
         {
             InitializeComponent();
         }
@@ -34,7 +34,8 @@ namespace SalesWinApp
 
         private void LoadMembers()
         {
-            var members = _memberService.GetMembers();
+            
+            var members = _memberService.GetLoad();
             _source = new BindingSource();
             _source.DataSource = members;
             dgvMemberList.DataSource = _source;

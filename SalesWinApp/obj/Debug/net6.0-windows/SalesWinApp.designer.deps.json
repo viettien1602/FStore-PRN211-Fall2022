@@ -480,6 +480,86 @@
           }
         }
       },
+      "ScottPlot/4.1.59": {
+        "dependencies": {
+          "System.Drawing.Common": "5.0.0",
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/net6.0/ScottPlot.dll": {
+            "assemblyVersion": "4.1.59.0",
+            "fileVersion": "4.1.59.0"
+          }
+        }
+      },
+      "ScottPlot.WinForms/4.1.59": {
+        "dependencies": {
+          "ScottPlot": "4.1.59"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/ScottPlot.WinForms.dll": {
+            "assemblyVersion": "4.1.59.0",
+            "fileVersion": "4.1.59.0"
+          }
+        }
+      },
+      "Syncfusion.Chart.Base/20.3.0.57": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.3.0.57",
+          "Syncfusion.Shared.Base": "20.3.0.57"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Chart.Base.dll": {
+            "assemblyVersion": "20.3500.0.57",
+            "fileVersion": "20.3500.0.57"
+          }
+        }
+      },
+      "Syncfusion.Chart.Windows/20.3.0.57": {
+        "dependencies": {
+          "Syncfusion.Chart.Base": "20.3.0.57",
+          "Syncfusion.Grouping.Base": "20.3.0.57",
+          "Syncfusion.Licensing": "20.3.0.57",
+          "Syncfusion.Shared.Base": "20.3.0.57"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Chart.Windows.dll": {
+            "assemblyVersion": "20.3500.0.57",
+            "fileVersion": "20.3500.0.57"
+          }
+        }
+      },
+      "Syncfusion.Grouping.Base/20.3.0.57": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.3.0.57",
+          "Syncfusion.Shared.Base": "20.3.0.57"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Grouping.Base.dll": {
+            "assemblyVersion": "20.3500.0.57",
+            "fileVersion": "20.3500.0.57"
+          }
+        }
+      },
+      "Syncfusion.Licensing/20.3.0.57": {
+        "runtime": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "20.3.0.57",
+            "fileVersion": "20.3.0.57"
+          }
+        }
+      },
+      "Syncfusion.Shared.Base/20.3.0.57": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.3.0.57"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Shared.Base.dll": {
+            "assemblyVersion": "20.3500.0.57",
+            "fileVersion": "20.3500.0.57"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {},
       "System.Collections.Immutable/6.0.0": {
         "dependencies": {
@@ -1096,6 +1176,55 @@
       "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
       "path": "microsoft.win32.systemevents/5.0.0",
       "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
+    },
+    "ScottPlot/4.1.59": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zUEBIW6rN6T6SoG8JGK4EGiwc94wX4iz1PFEGyAqRjGlnwwvHCCNdVWcNoQ/3u0rm8SJQQMD+AgT/2aoJUHLGQ==",
+      "path": "scottplot/4.1.59",
+      "hashPath": "scottplot.4.1.59.nupkg.sha512"
+    },
+    "ScottPlot.WinForms/4.1.59": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RkCbZT48aRspJSdsBbpMeorLqhx83njgHuY1iU/EQfoNLOatMhraPXV0F9maIbwfIXBSQaE0m2Dcn2OcZ2ngNg==",
+      "path": "scottplot.winforms/4.1.59",
+      "hashPath": "scottplot.winforms.4.1.59.nupkg.sha512"
+    },
+    "Syncfusion.Chart.Base/20.3.0.57": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1eAwa3foNoXKkSj7XdYZJ8VITvDuX9ZRSTJpu0BSU8XxXpOQ0MzjtYJF9A6Kvzzkhufu2WsfSNb3H/C4IYeJmw==",
+      "path": "syncfusion.chart.base/20.3.0.57",
+      "hashPath": "syncfusion.chart.base.20.3.0.57.nupkg.sha512"
+    },
+    "Syncfusion.Chart.Windows/20.3.0.57": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JbRFPBZcPOfGrl+V2Fu7MyS8OzyYNJNWb5lhiSVgUrX2f6Uj9tM3DntVxOGgVkWsejfooYgif95/cjAZxwJ+kw==",
+      "path": "syncfusion.chart.windows/20.3.0.57",
+      "hashPath": "syncfusion.chart.windows.20.3.0.57.nupkg.sha512"
+    },
+    "Syncfusion.Grouping.Base/20.3.0.57": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zYEMhOWZWbYIXudLw5sC8r9p0JCUwTdymCg3TwQ4HOwEWfXqIc4uW5qb00iHvsnlHTtcZzjGM5GIu5+Ot3+Xeg==",
+      "path": "syncfusion.grouping.base/20.3.0.57",
+      "hashPath": "syncfusion.grouping.base.20.3.0.57.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/20.3.0.57": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l/V7HuB/ZgYaSP0+hfvULMKfn5tJxITv6qCj1bwhAcIjKpHcf2wzQ3FHb/IdD5iCnzvAFdubRddJyHbzG+6ieA==",
+      "path": "syncfusion.licensing/20.3.0.57",
+      "hashPath": "syncfusion.licensing.20.3.0.57.nupkg.sha512"
+    },
+    "Syncfusion.Shared.Base/20.3.0.57": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DmB4zcfb5ZUpNV5dc7CmuS0jaRxLFGy6qb48RTYCTEoDHpuOVW0HEK7MIxF2n8s3LdDu7d3rEQZ7z2z6aZDV2g==",
+      "path": "syncfusion.shared.base/20.3.0.57",
+      "hashPath": "syncfusion.shared.base.20.3.0.57.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",

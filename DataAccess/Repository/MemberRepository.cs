@@ -34,6 +34,14 @@ namespace DataAccess.Repository
 
         }
 
+        public List<object> GetLoad()
+        {
+            List<object> result = new List<object>();
+            var s = from mb in dbContext.Members
+                    select new { mb.MemberId, mb.Email, mb.CompanyName, mb.City, mb.Country };
+            foreach (var mb in s) result.Add(mb);
+            return result;
+        }
 
         public List<Member> GetMembers() => dbContext.Members.ToList();
     }

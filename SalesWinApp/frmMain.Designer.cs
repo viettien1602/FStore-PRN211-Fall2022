@@ -37,6 +37,7 @@
             this.menuProfile = new System.Windows.Forms.ToolStripMenuItem();
             this.menuManageProfile = new System.Windows.Forms.ToolStripMenuItem();
             this.menuExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.sqlCommand1 = new Microsoft.Data.SqlClient.SqlCommand();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,7 +49,7 @@
             this.menuExit});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(466, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(535, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -66,26 +67,26 @@
             // menuManageMember
             // 
             this.menuManageMember.Name = "menuManageMember";
-            this.menuManageMember.Size = new System.Drawing.Size(180, 22);
+            this.menuManageMember.Size = new System.Drawing.Size(171, 22);
             this.menuManageMember.Text = "Manage Member";
             this.menuManageMember.Click += new System.EventHandler(this.menuManageMember_Click);
             // 
             // menuManageProduct
             // 
             this.menuManageProduct.Name = "menuManageProduct";
-            this.menuManageProduct.Size = new System.Drawing.Size(180, 22);
+            this.menuManageProduct.Size = new System.Drawing.Size(171, 22);
             this.menuManageProduct.Text = "Manage Product";
             // 
             // menuManageOrder
             // 
             this.menuManageOrder.Name = "menuManageOrder";
-            this.menuManageOrder.Size = new System.Drawing.Size(180, 22);
+            this.menuManageOrder.Size = new System.Drawing.Size(171, 22);
             this.menuManageOrder.Text = "Manage Order";
             // 
             // menuViewOrderHistory
             // 
             this.menuViewOrderHistory.Name = "menuViewOrderHistory";
-            this.menuViewOrderHistory.Size = new System.Drawing.Size(180, 22);
+            this.menuViewOrderHistory.Size = new System.Drawing.Size(171, 22);
             this.menuViewOrderHistory.Text = "View Order history";
             // 
             // menuProfile
@@ -109,11 +110,16 @@
             this.menuExit.Text = "Exit";
             this.menuExit.Click += new System.EventHandler(this.menuExit_Click);
             // 
+            // sqlCommand1
+            // 
+            this.sqlCommand1.CommandTimeout = 30;
+            this.sqlCommand1.EnableOptimizedParameterBinding = false;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(466, 302);
+            this.ClientSize = new System.Drawing.Size(535, 411);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMain";
@@ -138,5 +144,6 @@
         private ToolStripMenuItem menuProfile;
         private ToolStripMenuItem menuManageProfile;
         private ToolStripMenuItem menuExit;
+        private Microsoft.Data.SqlClient.SqlCommand sqlCommand1;
     }
 }

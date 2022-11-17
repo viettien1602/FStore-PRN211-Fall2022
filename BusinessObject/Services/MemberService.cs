@@ -31,5 +31,6 @@ namespace BusinessObject.Services
         }
 
         public bool DeleteMember(Member member) => _memberRepository.DeleteMember(member); 
+        public List<Object> GetLoad() => _memberRepository.GetLoad();
     }
 }

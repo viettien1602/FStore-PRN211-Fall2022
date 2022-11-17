@@ -11,6 +11,7 @@ namespace DataAccess.Repository
     {
         List<Member> GetMembers();
         bool DeleteMember(Member member);
+        List<Object> GetLoad();
 
     }
 }
