@@ -34,5 +34,6 @@ namespace BusinessObject.Services
         public void Update(Member member) => _memberRepository.Update(member);
         public bool DeleteMember(Member member) => _memberRepository.DeleteMember(member); 
 
+
     }
 }

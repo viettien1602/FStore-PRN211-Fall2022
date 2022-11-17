@@ -37,21 +37,21 @@
             // dgvMemberList
             // 
             this.dgvMemberList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMemberList.Location = new System.Drawing.Point(14, 16);
-            this.dgvMemberList.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dgvMemberList.Location = new System.Drawing.Point(12, 12);
+            this.dgvMemberList.MultiSelect = false;
             this.dgvMemberList.Name = "dgvMemberList";
+            this.dgvMemberList.ReadOnly = true;
             this.dgvMemberList.RowHeadersWidth = 51;
             this.dgvMemberList.RowTemplate.Height = 25;
             this.dgvMemberList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvMemberList.Size = new System.Drawing.Size(683, 356);
+            this.dgvMemberList.Size = new System.Drawing.Size(598, 267);
             this.dgvMemberList.TabIndex = 0;
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(489, 427);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnClose.Location = new System.Drawing.Point(428, 320);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(86, 31);
+            this.btnClose.Size = new System.Drawing.Size(75, 23);
             this.btnClose.TabIndex = 8;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -59,10 +59,9 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(143, 427);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnDelete.Location = new System.Drawing.Point(125, 320);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(86, 31);
+            this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 7;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -70,13 +69,12 @@
             // 
             // frmMembersManagement
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(714, 500);
+            this.ClientSize = new System.Drawing.Size(625, 375);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.dgvMemberList);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmMembersManagement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMembersManagement";

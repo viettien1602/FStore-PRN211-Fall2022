@@ -3669,25 +3669,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "D:\\PRN211-SE1609-FALL2022\\Assignment\\FStore-PRN211-Fall2022\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\DataAccess.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\obj\\",
+      "projectPath": "D:\\PRN211-SE1609-FALL2022\\Assignment\\FStore-PRN211-Fall2022\\DataAccess\\DataAccess.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\PRN211-SE1609-FALL2022\\Assignment\\FStore-PRN211-Fall2022\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3751,7 +3752,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
