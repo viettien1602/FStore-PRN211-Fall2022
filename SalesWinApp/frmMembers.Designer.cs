@@ -41,6 +41,7 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
             this.lbProfileManagement = new System.Windows.Forms.Label();
+            this.btnOrdersHistory = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbMemberId
@@ -125,7 +126,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(113, 307);
+            this.btnUpdate.Location = new System.Drawing.Point(122, 297);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(94, 29);
             this.btnUpdate.TabIndex = 10;
@@ -135,7 +136,7 @@
             // 
             // btnLogout
             // 
-            this.btnLogout.Location = new System.Drawing.Point(250, 307);
+            this.btnLogout.Location = new System.Drawing.Point(246, 297);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(94, 29);
             this.btnLogout.TabIndex = 11;
@@ -154,11 +155,22 @@
             this.lbProfileManagement.Text = "PROFILE MANAGEMENT";
             this.lbProfileManagement.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // btnOrdersHistory
+            // 
+            this.btnOrdersHistory.Location = new System.Drawing.Point(122, 341);
+            this.btnOrdersHistory.Name = "btnOrdersHistory";
+            this.btnOrdersHistory.Size = new System.Drawing.Size(218, 29);
+            this.btnOrdersHistory.TabIndex = 13;
+            this.btnOrdersHistory.Text = "Orders history";
+            this.btnOrdersHistory.UseVisualStyleBackColor = true;
+            this.btnOrdersHistory.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmMembers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 371);
+            this.ClientSize = new System.Drawing.Size(481, 398);
+            this.Controls.Add(this.btnOrdersHistory);
             this.Controls.Add(this.lbProfileManagement);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.btnUpdate);
@@ -196,5 +208,6 @@
         private Button btnUpdate;
         private Button btnLogout;
         private Label lbProfileManagement;
+        private Button btnOrdersHistory;
     }
 }

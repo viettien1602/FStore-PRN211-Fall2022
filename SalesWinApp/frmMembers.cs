@@ -65,5 +65,19 @@ namespace SalesWinApp
             }
             
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmOrders frmOrders = new frmOrders
+            {
+                MemberId = Member.MemberId
+            };
+            this.Hide();
+            if (frmOrders.ShowDialog() == DialogResult.Cancel)
+            {
+                frmOrders.Hide();
+                this.Show();
+            }
+        }
     }
 }
