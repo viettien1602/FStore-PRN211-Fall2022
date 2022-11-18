@@ -64,7 +64,7 @@ namespace SalesWinApp
 
                 dgvProducts.DataSource = null;
                 dgvProducts.DataSource = products;
-
+                dgvProducts.Columns[6].Visible = false;
                 txtProduct.Text = dgvProducts.CurrentRow.Cells[2].Value.ToString();
                 txtUnit.Text = dgvProducts.CurrentRow.Cells[3].Value.ToString();
                 txtProduct.Enabled = false;

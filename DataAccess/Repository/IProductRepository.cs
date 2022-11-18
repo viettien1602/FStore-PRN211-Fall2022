@@ -11,5 +11,8 @@ namespace DataAccess.Repository
     {
         List<Product> GetProducts();
         void Update(Product product);
+
+        void Delete(Product product);
+        void Create(Product product);
     }
 }

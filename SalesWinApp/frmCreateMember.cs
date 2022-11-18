@@ -35,7 +35,7 @@ namespace SalesWinApp
                     Email = txtEmail.Text,
                     CompanyName = txtCompanyName.Text,
                     City = txtCity.Text,
-                    Country = txtCountry.Text,
+                    Country = cbCountry.Text,
                     Password = txtPassword.Text
                 };
                 memberService.Create(member);
@@ -59,7 +59,9 @@ namespace SalesWinApp
 
         private void frmCreateMember_Load(object sender, EventArgs e)
         {
-
+            string[] countries = { "Vietnam", "Laos", "Cambodia", "China" };
+            cbCountry.Items.AddRange(countries);
+            cbCountry.SelectedIndex = 0;
         }
     }
 }

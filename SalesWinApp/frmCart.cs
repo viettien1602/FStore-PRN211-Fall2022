@@ -38,6 +38,8 @@ namespace SalesWinApp
             source.DataSource = orderDetails;
             dgvOrderDetails.DataSource = null;
             dgvOrderDetails.DataSource = source;
+            dgvOrderDetails.Columns[5].Visible = false;
+            dgvOrderDetails.Columns[6].Visible = false;
             if (orderDetails.Count == 0)
             {
                 btnRemove.Enabled = false;

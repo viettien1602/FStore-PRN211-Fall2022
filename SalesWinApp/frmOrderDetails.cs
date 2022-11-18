@@ -34,6 +34,8 @@ namespace SalesWinApp
             source.DataSource = orderDetails;
             dgvOrderDetail.DataSource = null;
             dgvOrderDetail.DataSource = source;
+            dgvOrderDetail.Columns[5].Visible = false;
+            dgvOrderDetail.Columns[6].Visible = false;
         }
         private void btnBack_Click(object sender, EventArgs e)
         {

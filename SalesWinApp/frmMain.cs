@@ -73,5 +73,14 @@ namespace SalesWinApp
             }
 
         }
+
+        private void menuManageProduct_Click(object sender, EventArgs e)
+        {
+            frmProductManagement frm = new frmProductManagement();
+            if (frm.ShowDialog() == DialogResult.Cancel)
+            {
+                frm.Hide();
+            }
+        }
     }
 }

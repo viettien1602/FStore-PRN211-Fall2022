@@ -77,6 +77,7 @@
             this.menuManageProduct.Name = "menuManageProduct";
             this.menuManageProduct.Size = new System.Drawing.Size(224, 26);
             this.menuManageProduct.Text = "Manage Product";
+            this.menuManageProduct.Click += new System.EventHandler(this.menuManageProduct_Click);
             // 
             // menuManageOrder
             // 
@@ -87,12 +88,10 @@
             // 
             // menuReport
             // 
-
             this.menuReport.Name = "menuReport";
-            this.menuReport.Size = new System.Drawing.Size(180, 22);
+            this.menuReport.Size = new System.Drawing.Size(224, 26);
             this.menuReport.Text = "Report Order";
             this.menuReport.Click += new System.EventHandler(this.menuReport_Click);
-
             // 
             // menuProfile
             // 
@@ -105,7 +104,7 @@
             // menuManageProfile
             // 
             this.menuManageProfile.Name = "menuManageProfile";
-            this.menuManageProfile.Size = new System.Drawing.Size(180, 22);
+            this.menuManageProfile.Size = new System.Drawing.Size(193, 26);
             this.menuManageProfile.Text = "Manage Profile";
             this.menuManageProfile.Click += new System.EventHandler(this.menuManageProfile_Click);
             // 

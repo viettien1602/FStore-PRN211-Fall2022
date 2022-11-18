@@ -20,5 +20,8 @@ namespace BusinessObject.Services
         public List<Product> GetProducts() => productRepository.GetProducts();
 
         public void Update(Product product) => productRepository.Update(product);
+
+        public void Create(Product product) => productRepository.Create(product);
+        public void Delete(Product product) => productRepository.Delete(product);
     }
 }

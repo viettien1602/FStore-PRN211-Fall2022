@@ -3608,11 +3608,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\SalesWinApp\\SalesWinApp.csproj",
+      "projectUniqueName": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\SalesWinApp\\SalesWinApp.csproj",
       "projectName": "SalesWinApp",
-      "projectPath": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\SalesWinApp\\SalesWinApp.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\SalesWinApp\\obj\\",
+      "projectPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\SalesWinApp\\SalesWinApp.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\SalesWinApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3628,11 +3628,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\BusinessObject\\BusinessObject.csproj"
+            "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\BusinessObject\\BusinessObject.csproj"
             },
-            "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\PRN211-SE1609-FALL2022\\Assignment2\\FStore-PRN211-Fall2022\\DataAccess\\DataAccess.csproj"
+            "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "F:\\IT lessons fpt\\PRN211\\Assignment2\\Ass02Solution\\DataAccess\\DataAccess.csproj"
             }
           }
         }

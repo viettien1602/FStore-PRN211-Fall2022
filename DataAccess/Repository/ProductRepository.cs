@@ -25,5 +25,23 @@ namespace DataAccess.Repository
                 dbContext.SaveChanges();
             }
         }
+
+        public void Delete(Product product)
+        {
+            if (product is not null)
+            {
+                dbContext.Remove(product);
+                dbContext.SaveChanges();
+            }
+
+        }
+        public void Create(Product product)
+        {
+            if (product is not null)
+            {
+                dbContext.Add(product);
+                dbContext.SaveChanges();
+            }
+        }
     }
 }

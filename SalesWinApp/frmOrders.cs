@@ -48,6 +48,8 @@ namespace SalesWinApp
             source.DataSource = orders;
             dgvOrders.DataSource = null;
             dgvOrders.DataSource = source;
+            dgvOrders.Columns[6].Visible = false;
+            dgvOrders.Columns[7].Visible = false;
         }
 
         private void DgvOrders_CellDoubleClick(object sender, EventArgs e)

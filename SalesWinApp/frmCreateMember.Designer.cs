@@ -36,11 +36,11 @@
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtCompanyName = new System.Windows.Forms.TextBox();
             this.txtCity = new System.Windows.Forms.TextBox();
-            this.txtCountry = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.cbCountry = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lbEmail
@@ -109,13 +109,6 @@
             this.txtCity.Size = new System.Drawing.Size(227, 27);
             this.txtCity.TabIndex = 9;
             // 
-            // txtCountry
-            // 
-            this.txtCountry.Location = new System.Drawing.Point(209, 203);
-            this.txtCountry.Name = "txtCountry";
-            this.txtCountry.Size = new System.Drawing.Size(227, 27);
-            this.txtCountry.TabIndex = 10;
-            // 
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(209, 250);
@@ -156,16 +149,24 @@
             this.label2.TabIndex = 14;
             this.label2.Text = "CREATE NEW USER";
             // 
+            // cbCountry
+            // 
+            this.cbCountry.FormattingEnabled = true;
+            this.cbCountry.Location = new System.Drawing.Point(209, 206);
+            this.cbCountry.Name = "cbCountry";
+            this.cbCountry.Size = new System.Drawing.Size(227, 28);
+            this.cbCountry.TabIndex = 15;
+            // 
             // frmCreateMember
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(518, 372);
+            this.Controls.Add(this.cbCountry);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtPassword);
-            this.Controls.Add(this.txtCountry);
             this.Controls.Add(this.txtCity);
             this.Controls.Add(this.txtCompanyName);
             this.Controls.Add(this.txtEmail);
@@ -192,10 +193,10 @@
         private TextBox txtEmail;
         private TextBox txtCompanyName;
         private TextBox txtCity;
-        private TextBox txtCountry;
         private TextBox txtPassword;
         private Button btnSave;
         private Button btnCancel;
         private Label label2;
+        private ComboBox cbCountry;
     }
 }
